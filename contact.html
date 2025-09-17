@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="whole.css">
+  <style>
+    body {
+      min-height: 200vh;
+      font-family: Arial, sans-serif;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px;
+      background: #070316;
+      color: white;
+    }
+
+    nav .left {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+
+    nav .right ul {
+      display: flex;
+      list-style: none;
+      gap: 20px;
+    }
+
+    nav .right ul li a,
+    .navlii a {
+      color: white;
+      text-decoration: none;
+      padding: 6px 12px;
+    }
+
+    nav .right ul li a.active {
+      border-bottom: 2px solid #f39c12;
+    }
+
+    .navlii {
+      display: none;
+    }
+
+    .main-c {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .centerBox {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .btn1 {
+      text-align: center;
+    }
+
+    .btn1 a {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #f39c12;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background 0.3s ease;
+    }
+
+    .btn1 a:hover {
+      background: #d35400;
+    }
+
+    .footer {
+      margin-top: 50px;
+      padding: 20px;
+      background: #111;
+      color: white;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">Ayush's Portfolio</div>
+      <div class="right">
+        <ul class="navliii">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="contact.html" class="nav-link active">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main-c">
+    <h1 class="h1-c">Contact me from any of the following...</h1>
+    <h3 class="h3-c">My Social Media Handles:</h3>
+
+    <div class="centerBox">
+      <div class="btn1">
+        <a href="https://www.instagram.com/direct/t/56964672033/" target="_blank">Get Instagram</a>
+      </div>
+
+      <div class="btn1">
+        <a href="https://wa.me/7897573949" target="_blank">Get WhatsApp</a>
+      </div>
+
+      <div class="btn1">
+        <a href="mailto:ayurajput249@gmail.com">Get Gmail</a>
+      </div>
+    </div>
+  </main>
+
+  <div class="footer">
+    <p>Contact me via <a href="mailto:ayurajput249@gmail.com" style="color: white;">email</a> for collaborations or
+      inquiries.</p>
+    <p>&copy; 2025 Ayush Singh. All rights reserved.</p>
+  </div>
+</body>
+
+</html>
